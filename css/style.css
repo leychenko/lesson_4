@@ -1,0 +1,90 @@
+/* &display=swap */
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic,900,900italic&display=swap);
+
+@font-face{
+	src: url(../fonts/Larsseit.woff2) format(woff2),url(../fonts/Larsseit.woff) format(woff);
+	font-family:"Larsseit-Regular";
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	src: url(../fonts/Larsseit-Bold.woff2) format(woff2),url(../fonts/Larsseit-Bold.woff) format(woff);
+	font-family:"Larsseit-Bold";
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	src: url(../fonts/Larsseit-Medium.woff2) format(woff2),url(../fonts/Larsseit-Medium.woff) format(woff);
+	font-family:"Larsseit-Medium";
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face{
+	src: url(../fonts/Lato-Black.woff2) format(woff2),url(../fonts/Lato-Black.woff) format(woff);
+	font-family:"Lato-Black";
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+.list-item__link {
+	
+	font-family:"Roboto";
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(24, 87, 129);
+ }
+.block-body__section .content__text{
+	font-family: "Larsseit-Regular";
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(54, 43, 83);
+ }
+.content h1{ 
+	font-family: "Lato-Black";
+	font-weight: 900;
+	font-style: normal;
+	color: crimson;
+}
+.content{
+	color: seagreen;
+}
+.content__text { 
+	font-family:"Larsseit-Medium";
+	font-weight: 500;
+	font-style: normal;
+	color: green;
+}
+
+.block-body__section2 p { 
+	font-family: "Larsseit-Bold";
+	font-weight: 700;
+	font-style: normal;
+	color: red;
+}
+.block-body__section3,
+.content{
+	color: royalblue;
+ }
+.block-body__section4 .content__text{
+	color: rgb(170, 9, 103);
+ }
+.content-list { 
+	font-family: "Roboto";
+	font-weight:500;
+	font-style: italic;
+	color: violet;
+}
+.content-list__item mark {
+	color: red;
+ }
+.block-body__section5.content .content__text {
+	color: rgb(172, 70, 2);
+ }
